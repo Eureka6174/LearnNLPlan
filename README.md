@@ -16,7 +16,7 @@ pip install backoff
 ```
 Then put your openai API in the api_dict of the openai_public.py file (Line 13).
 # Training
-We provide 10 tasks from the AMPS dataset here (paper: Measuring Mathematical Problem Solving With the MATH Dataset). You can find the details of the tasks in Table 1 of our paper (Learning to program with natural language). 
+We provide 10 tasks from the AMPS dataset here (paper: Measuring Mathematical Problem Solving With the MATH Dataset). You can find the details of the tasks in Table 1 of our paper: Learning to Program with Natural Language.
 ```
 python learning_to_program.py --name 1 --model --path xxx
                               --epoch 10 --batch_size 32 --valid_size 3 
