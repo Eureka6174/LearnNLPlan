@@ -14,9 +14,11 @@ Then put your openai API in the api_dict of the openai_public.py file (Line 13).
 # Training
 We provide 10 tasks from the AMPS dataset here (paper: Measuring Mathematical Problem Solving With the MATH Dataset). You can find the details of the tasks in Table 1 of our paper (Learning to program with natural language). 
 ```
-python learning_to_program.py --name 1 #task id --model #LLMs --path xxx #the file path
-                              --epoch 10 --batch_size 32 --valid_size 3 #the validation set is equal to valid_size*batch_size 
-                              --T 5 #the number of revision candidates --threshold 1.0 --few False #whether activate the few-shot CoT setting 
+python learning_to_program.py --name 1 --model --path xxx
+                              --epoch 10 --batch_size 32 --valid_size 3 
+                              --T 5 --threshold 1.0 --few False  
+                              ## name:task id; model:LLMs; path: the file path; 
+                              ## T:the number of revision candidates; few #whether activate the few-shot CoT setting
 ```
 # Checking the learned task program
 During the training process, the validation performance, test performance and current task program would be printed.
