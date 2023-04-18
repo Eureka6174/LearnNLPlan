@@ -1,9 +1,9 @@
 # Project
 
-> We will release the code as soon as we pass the company audit.
+> This project introduces the Learning to Program (LP) method, which aims to learn task programs in text form from the training set using Large Language Models (LLMs) themselves. The method then uses the learned program to guide LLMs to solve complex tasks. Our method only requires access to LLMs and does not need to update their parameters. Unlike previous self-critiquing methods, this method attempts to improve task performance by learning task programs from the training datapoints provided by humans. It also allows LLMs to learn and utilize new knowledge from the training set. Also, we hope that our new learning diagram can inspire the research community to investigate learning algorithms based on natural language. The learned task experience in this kind of learning algorithm is written in natural language, making it understandable to humans. Additionally, the learned content may provide insights into understanding the behavior of LLMs. This project is still a work in progress
 
 
-## Contributing
+#Requirements
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
