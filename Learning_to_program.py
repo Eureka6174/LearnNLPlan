@@ -1,3 +1,5 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
 import numpy as np
 from openai_public import query_azure_openai_chatgpt_chat,multi_threading_running
 from utils import get_validation_set,shuffle_datapoints, Recorder,parse_solution,get_wrong_group,get_wrong_triples,extract_answer,data_process,get_triples, calculation_performance
